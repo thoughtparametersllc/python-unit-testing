@@ -28,6 +28,8 @@ GitHub Action to automatically detect and run Python testing frameworks.
 
 ## Usage
 
+> **Note:** Replace `@v1` with `@main` or a specific commit SHA (e.g., `@a1b2c3d`) until the first release is tagged. Once v1.0.0 is released, you can use `@v1` for the latest v1.x version.
+
 ### Basic Example
 
 ```yaml
@@ -41,7 +43,7 @@ jobs:
       - uses: actions/checkout@v4
       
       - name: Run Python Tests
-        uses: thoughtparametersllc/python-testing@v1
+        uses: thoughtparametersllc/python-testing@v1  # or @main before first release
 ```
 
 ### Advanced Example with All Options
@@ -181,6 +183,16 @@ Manual badge references (if not using `update-readme`):
 ![Tox](.github/badges/tox.svg)
 ![Doctest](.github/badges/doctest.svg)
 ```
+
+## Roadmap
+
+Future enhancements planned:
+
+- **Automated versioning and tagging** - Semantic versioning with automated tag creation
+- **GitHub Marketplace publishing** - Automated publishing workflow for releases
+- **Additional frameworks** - Support for robotframework, green, testify, Ward
+- **Enhanced reporting** - Code coverage integration, test timing analysis
+- **Performance optimization** - Parallel test execution, dependency caching
 
 ## Development
 

@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Run Python Tests with Badge Generation
-        uses: thoughtparametersllc/python-testing@v1
+        uses: thoughtparametersllc/python-testing@copilot/add-auto-detect-test-framework
         with:
           python-version: '3.11'
           requirements-file: 'requirements.txt'
