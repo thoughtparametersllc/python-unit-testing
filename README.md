@@ -16,7 +16,7 @@ GitHub Action to automatically detect and run Python testing frameworks.
 ## Supported Testing Framework
 
 | Framework  | Detection Method                   | Notes                                 |
-|------------|------------------------------------|------------------------------------- -|
+|------------|------------------------------------| --------------------------------------|
 | **pytest** | Always runs if pytest is installed | Most popular Python testing framework |
 
 ## Usage
@@ -88,13 +88,13 @@ permissions:
 
 ## Inputs
 
-| Input                | Description                                           | Required | Default           |
-|----------------------|-------------------------------------------------------|----------|-------------------|
-| `python-version`     | Python version to use for testing                     | No       | `3.x`             |
-| `requirements-file`  | Path to requirements file for additional dependencies | No       | `requirements.txt`|
-| `pytest-options`     | Additional options to pass to pytest                  | No       | `''`              |
-| `commit-badges`      | Generate and commit SVG badges to the repository      | No       | `false`           |
-| `badges-directory`   | Directory where badge SVG files will be saved         | No       | `.github/badges`  |
+| Input                | Description                                           | Required | Default            |
+|----------------------|-------------------------------------------------------|----------|--------------------|
+| `python-version`     | Python version to use for testing                     | No       | `3.x`              |
+| `requirements-file`  | Path to requirements file for additional dependencies | No       | `requirements.txt` |
+| `pytest-options`     | Additional options to pass to pytest                  | No       | `''`               |
+| `commit-badges`      | Generate and commit SVG badges to the repository      | No       | `false`            |
+| `badges-directory`   | Directory where badge SVG files will be saved         | No       | `.github/badges`   |
 
 ## How It Works
 
