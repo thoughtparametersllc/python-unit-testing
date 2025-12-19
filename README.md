@@ -16,7 +16,7 @@ GitHub Action to automatically detect and run Python testing frameworks.
 ## Supported Testing Framework
 
 | Framework  | Detection Method                   | Notes                                 |
-|------------|------------------------------------|------------------------------ --------|
+|------------|------------------------------------|------------------------------------- -|
 | **pytest** | Always runs if pytest is installed | Most popular Python testing framework |
 
 ## Usage

@@ -20,8 +20,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated QUICK_START.md to reflect actual badge generation workflow
 - Fixed CONTRIBUTING.md references from "Python Linting Action" to "Python Testing Action"
 - Fixed clone path in CONTRIBUTING.md from "python-linting" to "python-testing"
-- Removed documentation for non-existent inputs (unittest-options, nose-options, behave-options,
-  tox-options, generate-badges, update-readme, readme-path, badge-style)
+- Removed documentation for non-existent inputs: unittest-options, nose-options, behave-options,
+  tox-options, generate-badges, update-readme, readme-path, and badge-style
 - Updated feature list to reflect pytest-only support
 - Simplified framework detection section to reflect current implementation
 
